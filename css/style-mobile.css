@@ -1,0 +1,38 @@
+/* style-mobile.css */
+/* Gaya khusus perangkat seluler */
+
+.menu-item {
+  text-align: center; /* Pusatkan carousel pada perangkat seluler */
+  margin-bottom: 20px; /* Tambahkan margin bawah untuk memisahkan item menu */
+}
+
+.menu-item .carousel {
+  width: 100%; /* Atur lebar carousel agar sesuai dengan kontainer */
+}
+
+.menu-item .carousel .carousel-inner {
+  max-width: 100%;
+}
+
+.menu-item .carousel-item {
+  text-align: center; /* Pusatkan item carousel */
+}
+
+.menu-item .carousel-item img {
+  max-width: 100%; /* Atur lebar gambar agar sesuai dengan carousel */
+  margin: auto; /* Pusatkan gambar secara horizontal */
+}
+
+.menu-item .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Atur latar belakang transparan untuk caption */
+  color: #fff; /* Warna teks caption */
+}
+
+.menu-item .carousel-caption h5,
+.menu-item .carousel-caption p {
+  margin: 0; /* Hapus margin default */
+}
+
+.menu-item .btn-order {
+  margin-top: 10px; /* Atur margin atas untuk tombol pesan */
+}
